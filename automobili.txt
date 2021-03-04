@@ -1,0 +1,15 @@
+database = concessionario
+tabella = automobili
+
+id_auto                PK        BIGINT          NOTNULL       AUTO_INCREMENT
+modello                          VARCHAR         NOTNULL
+serie                            VARCHAR         NOTNULL
+produttore                       VARCHAR         NOTNULL
+data_uscita                      YEAR            NOTNULL
+tipo_alimentazione               VARCHAR         NOTNULL
+cilindrata                       SMALLINT        NOTNULL
+prezzo                           DOUBLE(8,2)     NOTNULL
+n_porte                          TINYINT(1)      NOTNULL
+usata                            TINYINT(1)      NOTNULL
+km                               MEDIUMINT       NOTNULL       STANDARD 0
+targa                            VARCHAR(7)      NULL
